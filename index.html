@@ -1,123 +1,70 @@
-<head> 김창현 feasibility</head>
-<input type='number' name='userPhoneNumber' />
-<title>기본 정보</title>
-<style type="text/css">
-  .tg  {border-collapse:collapse;border-spacing:0;}
-  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-    overflow:hidden;padding:10px 5px;word-break:normal;}
-  .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-  .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-  .tg .tg-n533{background-color:#dae8fc;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-  </style>
-  <table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-n533">시설관리공단명</th>
-      <th class="tg-n533">사업명</th>
-      <th class="tg-n533">현행수입</th>
-      <th class="tg-n533">인건비</th>
-      <th class="tg-n533">운영비</th>
-      <th class="tg-n533">공단수입</th>
-      <th class="tg-n533">인건비</th>
-      <th class="tg-n533">운영비</th>
-      <th class="tg-n533">물가상승률</th>
-      <th class="tg-n533">공무원인건비증가율</th>
-      <th class="tg-n533">수입상승률</th>
-      <th class="tg-n533">인건비상승률</th>
-      <th class="tg-n533">운영비상승률</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-c3ow">홍길동</td>
-      <td class="tg-c3ow">환경</td>
-      <td class="tg-c3ow">   6,587,709 </td>
-      <td class="tg-c3ow">     135,522 </td>
-      <td class="tg-c3ow">  &nbsp;&nbsp;&nbsp;13,258,629 </td>
-      <td class="tg-c3ow">  &nbsp;&nbsp;&nbsp;6,587,709 </td>
-      <td class="tg-c3ow">  &nbsp;&nbsp;&nbsp;9,095,937 </td>
-      <td class="tg-c3ow">  &nbsp;&nbsp;&nbsp;4,501,381 </td>
-      <td class="tg-c3ow">0.0094</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.0094</td>
-      <td class="tg-c3ow">0.0371</td>
-      <td class="tg-c3ow">0.0094</td>
-    </tr>
-    <tr>
-      <td class="tg-c3ow">홍길동</td>
-      <td class="tg-c3ow">관광지</td>
-      <td class="tg-c3ow">              - </td>
-      <td class="tg-c3ow">      38,548 </td>
-      <td class="tg-c3ow">      456,741 </td>
-      <td class="tg-c3ow">     729,399 </td>
-      <td class="tg-c3ow">     344,022 </td>
-      <td class="tg-c3ow">     769,988 </td>
-      <td class="tg-c3ow">0.0094</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.0094</td>
-      <td class="tg-c3ow">0.0371</td>
-      <td class="tg-c3ow">0.0094</td>
-    </tr>
-    <tr>
-      <td class="tg-c3ow">모군</td>
-      <td class="tg-c3ow">생활폐기물</td>
-      <td class="tg-c3ow">   1,205,779 </td>
-      <td class="tg-c3ow">   2,619,224 </td>
-      <td class="tg-c3ow">      675,163 </td>
-      <td class="tg-c3ow">   1,205,779 </td>
-      <td class="tg-c3ow">   2,619,224 </td>
-      <td class="tg-c3ow">     675,163 </td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.065</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.011</td>
-    </tr>
-    <tr>
-      <td class="tg-c3ow">모군</td>
-      <td class="tg-c3ow">sports</td>
-      <td class="tg-c3ow">     764,453 </td>
-      <td class="tg-c3ow">     820,311 </td>
-      <td class="tg-c3ow">      393,646 </td>
-      <td class="tg-c3ow">     764,453 </td>
-      <td class="tg-c3ow">     730,766 </td>
-      <td class="tg-c3ow">     393,646 </td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0313</td>
-      <td class="tg-c3ow">0.0313</td>
-    </tr>
-    <tr>
-      <td class="tg-c3ow">모군</td>
-      <td class="tg-c3ow">주차장</td>
-      <td class="tg-c3ow">      47,742 </td>
-      <td class="tg-c3ow">     205,632 </td>
-      <td class="tg-c3ow">        15,923 </td>
-      <td class="tg-c3ow">      45,570 </td>
-      <td class="tg-c3ow">     299,205 </td>
-      <td class="tg-c3ow">      15,923 </td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0313</td>
-      <td class="tg-c3ow">0.0313</td>
-    </tr>
-    <tr>
-      <td class="tg-c3ow">모군</td>
-      <td class="tg-c3ow">농임</td>
-      <td class="tg-c3ow">     255,493 </td>
-      <td class="tg-c3ow">     538,636 </td>
-      <td class="tg-c3ow">      291,943 </td>
-      <td class="tg-c3ow">     255,493 </td>
-      <td class="tg-c3ow">     485,631 </td>
-      <td class="tg-c3ow">     291,943 </td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0414</td>
-      <td class="tg-c3ow">0.011</td>
-      <td class="tg-c3ow">0.0246</td>
-      <td class="tg-c3ow">0.0246</td>
-    </tr>
-  </tbody>
-  </table>
+<html lang="ko"><head>
+  <title>평형계산기</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/sub.css">
+  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/contents.css">
+  <script src="/open_content/well/share/js/base.js"></script>
+  <script type="text/javascript">
+      /*<![CDATA[*/
+      function comp_area(A){     
+          var m1pyong = document.comparea.m1pyonginput;
+          var m2pyong = document.comparea.m2pyonginput;
+           
+          if(A == "P"){	  
+              if(m1pyong.value.length < 1 || !isNumeric(m1pyong.value) ){
+                  alert('숫자로 정확히 입력하십시오');
+                  comparea.m1pyonginput.focus();
+                  return ;
+              }
+              document.comparea.m1pyongoutput.value = m1pyong.value * 0.3025; 
+          }else {	  
+              if(m2pyong.value.length < 1 || !isNumeric(m2pyong.value) ){
+                  alert('숫자로 정확히 입력하십시오');
+                  comparea.m2pyonginput.focus();
+                  return ;
+              }
+              document.comparea.m2pyongoutput.value = m2pyong.value * 3.3058; 
+          }
+          return;
+      }
+      function isNumeric(checkStr){
+          var checkOK = '0123456789.';
+          for ( i=0; i<checkStr.length; i++){
+              ch = checkStr.charAt(i);
+              for (j=0; j < checkOK.length; j++)
+              if (ch == checkOK.charAt(j)){ 
+                  break;
+              }
+              if (j== checkOK.length){
+                  return(false);
+                  break;
+              }
+          }
+          return (true);
+      }
+      
+      self.resizeTo(528,570);  
+      /*]]>*/
+  </script>
+</head>
+<body id="popup">
+  <h1>평형계산기</h1>
+  <form name="comparea" method="post">
+  <div class="data">
+      <p class="sbl">1㎥는 약 0.3025평이고, 1평은 약 3,3058㎥입니다.</p>
+      <dl class="calculator">
+          <dt><label for="m1pyonginput">㎥ → 평</label></dt>
+          <dd>
+              <p><input type="text" name="m1pyonginput" style="width:80px; height:33px; line-height:33px; " class="btin" title="평으로 환산할 ㎡면적을 입력하세요" id="m1pyonginput">㎥<span class="button medium"><a href="#m1pyongoutput" onclick="comp_area('P'); return false;" onkeypress="comp_area('P'); return false;" title="계산하기">계산하기</a></span><input type="text" readonly="" name="m1pyongoutput" style="width:80px; height:33px; line-height:33px; " class="btin" title="환산된 평수입니다." id="m1pyongoutput">평</p>		
+          </dd>
+          <dt><label for="m2pyonginput">평 → ㎡</label></dt>
+          <dd><input type="text" name="m2pyonginput" style="width:80px; height:33px; line-height:33px; " class="btin" title="㎡로 환산할 평수를 입력하세요" id="m2pyonginput">평<span class="button medium"><a href="#m2pyongoutput" onclick="comp_area('m'); return false;" onkeypress="comp_area('M'); return false;" title="계산하기">계산하기</a></span><input type="text" readonly="" name="m2pyongoutput" style="width:80px; height:33px; line-height:33px; " class="btin" title="환산된 ㎡면적입니다." id="m2pyongoutput">㎡
+          </dd>
+      </dl>
+  </div>
+  </form>
+  <p class="center"><span class="button medium"><a title="창닫기" onclick="javascript:window.close(); return false;" href="/open_content/well/pop_calculator.jsp">닫기</a></span></p>
+
+
+</body></html>
