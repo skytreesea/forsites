@@ -1,70 +1,9 @@
-<html lang="ko"><head>
-  <title>평형계산기</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/common.css">
-  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/sub.css">
-  <link rel="stylesheet" type="text/css" href="/open_content/well/share/css/contents.css">
-  <script src="/open_content/well/share/js/base.js"></script>
-  <script type="text/javascript">
-      /*<![CDATA[*/
-      function comp_area(A){     
-          var m1pyong = document.comparea.m1pyonginput;
-          var m2pyong = document.comparea.m2pyonginput;
-           
-          if(A == "P"){	  
-              if(m1pyong.value.length < 1 || !isNumeric(m1pyong.value) ){
-                  alert('숫자로 정확히 입력하십시오');
-                  comparea.m1pyonginput.focus();
-                  return ;
-              }
-              document.comparea.m1pyongoutput.value = m1pyong.value * 0.3025; 
-          }else {	  
-              if(m2pyong.value.length < 1 || !isNumeric(m2pyong.value) ){
-                  alert('숫자로 정확히 입력하십시오');
-                  comparea.m2pyonginput.focus();
-                  return ;
-              }
-              document.comparea.m2pyongoutput.value = m2pyong.value * 3.3058; 
-          }
-          return;
-      }
-      function isNumeric(checkStr){
-          var checkOK = '0123456789.';
-          for ( i=0; i<checkStr.length; i++){
-              ch = checkStr.charAt(i);
-              for (j=0; j < checkOK.length; j++)
-              if (ch == checkOK.charAt(j)){ 
-                  break;
-              }
-              if (j== checkOK.length){
-                  return(false);
-                  break;
-              }
-          }
-          return (true);
-      }
-      
-      self.resizeTo(528,570);  
-      /*]]>*/
-  </script>
-</head>
-<body id="popup">
-  <h1>평형계산기</h1>
-  <form name="comparea" method="post">
-  <div class="data">
-      <p class="sbl">1㎥는 약 0.3025평이고, 1평은 약 3,3058㎥입니다.</p>
-      <dl class="calculator">
-          <dt><label for="m1pyonginput">㎥ → 평</label></dt>
-          <dd>
-              <p><input type="text" name="m1pyonginput" style="width:80px; height:33px; line-height:33px; " class="btin" title="평으로 환산할 ㎡면적을 입력하세요" id="m1pyonginput">㎥<span class="button medium"><a href="#m1pyongoutput" onclick="comp_area('P'); return false;" onkeypress="comp_area('P'); return false;" title="계산하기">계산하기</a></span><input type="text" readonly="" name="m1pyongoutput" style="width:80px; height:33px; line-height:33px; " class="btin" title="환산된 평수입니다." id="m1pyongoutput">평</p>		
-          </dd>
-          <dt><label for="m2pyonginput">평 → ㎡</label></dt>
-          <dd><input type="text" name="m2pyonginput" style="width:80px; height:33px; line-height:33px; " class="btin" title="㎡로 환산할 평수를 입력하세요" id="m2pyonginput">평<span class="button medium"><a href="#m2pyongoutput" onclick="comp_area('m'); return false;" onkeypress="comp_area('M'); return false;" title="계산하기">계산하기</a></span><input type="text" readonly="" name="m2pyongoutput" style="width:80px; height:33px; line-height:33px; " class="btin" title="환산된 ㎡면적입니다." id="m2pyongoutput">㎡
-          </dd>
-      </dl>
-  </div>
-  </form>
-  <p class="center"><span class="button medium"><a title="창닫기" onclick="javascript:window.close(); return false;" href="/open_content/well/pop_calculator.jsp">닫기</a></span></p>
+<html>
+<head>파이썬으로 사이트 조정하기</head>
 
-
-</body></html>
+<body>
+    <H1>오늘도 1파이썬</H1>
+    <p>Do it now!</p>
+<a href="{{ url_for('do_something') }}">Your button</a>
+</body>
+</html>
