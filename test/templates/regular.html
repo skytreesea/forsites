@@ -1,90 +1,92 @@
 <html>
     <head>
-        <style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-pbtr{background-color:#ffccc9;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+      <style type="text/css">
+        .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+        .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:13px 3px;word-break:normal;}
+        .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:13px 3px;word-break:normal;}
+        .tg .tg-avt9{background-color:#ffccc9;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;;font-size:18px;
+          font-weight:bold;text-align:center;vertical-align:top}
+        .tg .tg-xutm{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;;font-size:18px;font-weight:bold;
+          text-align:center;vertical-align:top}
+        .tg .tg-6god{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;;font-size:18px;text-align:left;
+          vertical-align:top}
+        </style>
 </head>
 <body>
     <h1>정규식 주요 명령어 모음</h1>
-<br> 
-<table class="tg" style="undefined;table-layout: fixed; width: 662px">
-<colgroup>
-<col style="width: 77px">
-<col style="width: 266px">
-<col style="width: 106px">
-<col style="width: 213px">
-</colgroup>
-<thead>
-  <tr>
-    <th class="tg-pbtr">패턴</th>
-    <th class="tg-pbtr">의미</th>
-    <th class="tg-pbtr">패턴</th>
-    <th class="tg-pbtr">의미</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-amwm">.</td>
-    <td class="tg-0lax">모든 문자, 숫자, 공백</td>
-    <td class="tg-amwm">{n}</td>
-    <td class="tg-0lax"><span style="font-style:inherit">n&nbsp;&nbsp;&nbsp;개 있음</span></td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">\.</td>
-    <td class="tg-0lax">순수하게 마침표(.)</td>
-    <td class="tg-amwm">{n,}</td>
-    <td class="tg-0lax">n개 이상</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">\d </td>
-    <td class="tg-0lax">숫자와 매치, [0-9]</td>
-    <td class="tg-amwm">[]</td>
-    <td class="tg-0lax">[] 안에 들어간 문자 중 하나</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">\D </td>
-    <td class="tg-0lax">숫자가 아닌 것과 매치</td>
-    <td class="tg-amwm">[a-z]</td>
-    <td class="tg-0lax">a에서z까지, 즉 소문자</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">\s</td>
-    <td class="tg-0lax">공백문자</td>
-    <td class="tg-amwm">[A-Z]</td>
-    <td class="tg-0lax">대문자</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">\\</td>
-    <td class="tg-0lax">메타 문자가 아닌 일반 문자&nbsp;&nbsp;&nbsp;역슬래시(\)</td>
-    <td class="tg-amwm">[A-Za-z]</td>
-    <td class="tg-0lax">알파벳 대문자거나 소문자</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">?</td>
-    <td class="tg-0lax">0이거나 1번 반복될 때 출력</td>
-    <td class="tg-amwm">[가-힣]</td>
-    <td class="tg-0lax">모든 한글</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">*</td>
-    <td class="tg-0lax">0번이상 반복</td>
-    <td class="tg-amwm">[0-9]</td>
-    <td class="tg-0lax">모든 숫자</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">+</td>
-    <td class="tg-0lax">1개 이상 반복</td>
-    <td class="tg-amwm">[A-Za-z가-힣]</td>
-    <td class="tg-0lax">알파벳 대소문자거가 한글</td>
-  </tr>
-</tbody>
-</table>
-</body>
-</html>
+<br> <br> 
+
+  <table class="tg" style="undefined;table-layout: fixed; width: 689px">
+  <colgroup>
+  <col style="width: 52px">
+  <col style="width: 256px">
+  <col style="width: 138px">
+  <col style="width: 243px">
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="tg-avt9">패턴</th>
+      <th class="tg-avt9">의미</th>
+      <th class="tg-avt9">패턴</th>
+      <th class="tg-avt9">의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-xutm">.</td>
+      <td class="tg-6god">모든 문자, 숫자, 공백</td>
+      <td class="tg-xutm">{n}</td>
+      <td class="tg-6god"><span style="font-style:inherit">n&nbsp;&nbsp;&nbsp;개 있음</span></td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">\.</td>
+      <td class="tg-6god">순수하게 마침표(.)</td>
+      <td class="tg-xutm">{n,}</td>
+      <td class="tg-6god">n개 이상</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">\d </td>
+      <td class="tg-6god">숫자와 매치, [0-9]</td>
+      <td class="tg-xutm">[]</td>
+      <td class="tg-6god">[] 안에 들어간 문자 중 하나</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">\D </td>
+      <td class="tg-6god">숫자가 아닌 것과 매치</td>
+      <td class="tg-xutm">[a-z]</td>
+      <td class="tg-6god">a에서z까지, 즉 소문자</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">\s</td>
+      <td class="tg-6god">공백문자</td>
+      <td class="tg-xutm">[A-Z]</td>
+      <td class="tg-6god">대문자</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">\\</td>
+      <td class="tg-6god">메타 문자가 아닌 일반 문자   <br>역슬래시(\)</td>
+      <td class="tg-xutm">[A-Za-z]</td>
+      <td class="tg-6god">알파벳 대문자거나 소문자</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">?</td>
+      <td class="tg-6god">0이거나 1번 반복될 때 출력</td>
+      <td class="tg-xutm">[가-힣]</td>
+      <td class="tg-6god">모든 한글</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">*</td>
+      <td class="tg-6god">0번이상 반복</td>
+      <td class="tg-xutm">[0-9]</td>
+      <td class="tg-6god">모든 숫자</td>
+    </tr>
+    <tr>
+      <td class="tg-xutm">+</td>
+      <td class="tg-6god">1개 이상 반복</td>
+      <td class="tg-xutm">[A-Za-z가-힣]</td>
+      <td class="tg-6god">알파벳 대소문자거가 한글</td>
+    </tr>
+  </tbody>
+  </table>
