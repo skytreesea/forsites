@@ -1,16 +1,13 @@
-<!DOCTYPE html>
 <html>
-<head>
-     <meta charset="utf-8">
-</head>
-<body>
-  <script>
-    password = prompt("비밀번호");
-    if(password == 1111) {
-      document.write("안녕하세요. 주인님");
-    } else {
-      document.write("뉘신지?");
-    }
-  </script>
-</body>
+	<form action="login.php" method="POST">
+		<span>id</span>
+		<br />
+		<input type="text" id="loginID">
+		<br />
+		<span>pass</span>
+		<br />
+		<input type="password" id="loginPASS">
+		<br />
+		<input type="submit" value="로그인">
+	</form>
 </html>
