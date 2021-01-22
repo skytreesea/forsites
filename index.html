@@ -37,6 +37,13 @@
                 text-align-last: center;
                 background-color: thistle;
             }
+            .button{
+                font-size:16; 
+                border-radius:10em; 
+                padding:2px 20px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+                text-transform: capitalize;"
+            }
             </style>
 	</head>
     <section id="One" class="wrapper style3">
@@ -80,7 +87,7 @@
                                 </a>
                             </li>
                         <li>
-                    <a href = "\test\coupang_to_excel\coupang_to_excel.html">
+                    <a href = "\test\coupang_to_excel\coupal.html">
                          <b>상품정보 엑셀저장(new)</b>이 업로드 되었습니다.  <br>
                         </a>
                     </li>
@@ -96,45 +103,45 @@
                 </span>
                           <div>
                             <a href = "\test\words\dictionary.html">
-                                <button style="color: #fff; background:rgb(247, 99, 94); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>[영어공부자동화] 나만의 단어장(My own dictionary)</b></button>
+                                <button class="button" style="color: #fff; background:rgb(247, 99, 94); " onclick="'"><b>My own dictionary</b></button>
                             </a>
-
-                            <button style="color: rgb(255, 255, 255); background:rgb(186, 223, 101); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'">어린왕자에서 가장 많이 쓰인 15단어</button>
                             <a href = "/images/littleprince30.jpeg">
-                                <button style="color: rgb(255, 255, 255); background:rgb(109, 111, 240); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'">지방공기업 지역별 기본현황 클립보드로 옮기기</button>
-                            </a>                            
+                            <button class="button"> Find 15 frequently-used words in Little Prince</button>
+                        </a>
+                             <button class="button" style="color: rgb(245, 110, 110); background:rgb(109, 111, 240)">Move data about local public firms to excel</button>
+                                                       
                 <a href = "\test\words\words_explain.html">
-                    <button style="color: rgb(255, 255, 255); background:rgb(248, 125, 88); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'">말뭉치 분석 실습(형태소분석기)</button>
+                    <button class="button" style="background:rgb(113, 222, 236)" >Analyze Korean sentences</button>
                 </a>
                 <a href = "\test\hwp\hwptopdf_explain.html">
-                    <button style="color: rgb(255, 255, 255); background:rgb(35, 241, 104); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>한글 파일 pdf로 바꾸기(feat: 파이썬)[NEW!]</b></button>
+                    <button class="button" style="color: rgb(255, 255, 255); background:rgb(35, 241, 104)"><b>Change HWP files to PDF</b></button>
                 </a>
                 <a href = "https://brunch.co.kr/@skytreesea/110">
-                    <button style="color: #fff; background:rgb(247, 99, 94); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>파이썬 배울 이유(필독of필독)</b></button>
+                    <button class="button" style="background:rgb(110, 236, 142)"onclick="'"><b>Why do we have to learn Python?</b></button>
                 </a>
                 <a href = "https://github.com/skytreesea/PythonBasic/blob/master/crawling/webtoon.py">
-                    <button style="color: #fff; background:rgb(238, 169, 201); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>웹툰 순위 크롤링</b></button>
+                    <button class="button" style="background:rgb(248, 125, 88)"onclick="'"><b>Crowling the rank of the naver webtoon</b></button>
                 </a>
                 <a href = "https://brunch.co.kr/@skytreesea/111">
-                    <button style="color: #fff; background:rgb(83, 238, 116); font-size:16; border-radius:10em; padding:2px 20px;" ><b>엑셀과 파이썬 비교</b></button> 
+                    <button class="button" style="background:rgb(202, 250, 112)"><b>The comparison between Excel and Python pandas </b></button> 
                 </a>
                 <a href = "https://github.com/skytreesea/fast_campus/blob/master/basic_scaping/brunch_for_url/brunch_for_url.py">
-                    <button style="color: #fff; background:rgb(154, 183, 238); font-size:16; border-radius:10em; padding:2px 20px;" ><b>url을 이해하기</b></button> 
+                    <button class="button" ><b>Understanding URL</b></button> 
                 </a>
                 <a href = "/test/templates/major.html">
-                    <button style="color: #fff; background:rgb(233, 231, 101); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>파이썬 주요 명령</b></button>
+                    <button class="button" style="background:rgb(164, 248, 182)"><b>Frequently-used methods of python </b></button>
                 </a>
                 <a href = "/test/templates/re_def.html">
-                    <button style="color: #fff; background:rgb(233, 199, 147); font-size:16; border-radius:10em; padding:2px 20px;" ><b>정규 표현식 정의</b></button>
+                    <button class="button" style="background:rgb(122, 150, 240)" ><b>The definition of Regular Expression</b></button>
                 </a>
                 <a href = "/test/templates/regular.html">
-                    <button style="color: #fff; background:rgb(200, 235, 172); font-size:16; border-radius:10em; padding:2px 20px;" ><b>정규식 샘플 명령</b></button> 
+                    <button class="button" style="background:rgb(179, 236, 146)" ><b>Basic forms of regular expression</b></button> 
                 </a>
                 <a href = "https://colab.research.google.com/drive/1bH1H28WtYm1NrmVXcXoWcD-czl6Zha6x">
-                    <button style="color: #fff; background:rgb(245, 167, 171); font-size:16; border-radius:10em; padding:2px 20px;" ><b>정규식 강의내용</b></button> 
+                    <button class="button" style="background:rgb(172, 100, 79)"><b>Basic example of regular expression</b></button> 
                 </a>
-                <a href = "\test\coupang_to_excel\coupang_to_excel.html">
-                    <button style="color: #fff; background:rgb(233, 231, 101); font-size:16; border-radius:10em; padding:2px 20px;" onclick="'"><b>상품가격 바로 검색프로그램 </b></button>
+                <a href = "\test\coupang_to_excel\coupal.html">
+                    <button class="button" style="background:rgb(103, 181, 233)"><b> A program to save the lists of products you need </b></button>
                 </a>
             </div>
 
